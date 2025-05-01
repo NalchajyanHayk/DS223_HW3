@@ -1,9 +1,8 @@
-# Create the content of the README.md file
-readme_md_content = """# Homework 3: Survival Analysis – Marketing Analytics
+# Homework 3: Survival Analysis – Marketing Analytics
 
 **Author**: Hayk Nalchajyan  
 **Course**: DS223 Marketing Analytics  
-**Topic**: Customer Retention Modeling and Customer Lifetime Value (CLV)
+**Topic**: Survival Analysis and Customer Lifetime Value (CLV)
 
 ---
 
@@ -46,5 +45,32 @@ These findings suggest that female customers show slightly **higher retention**,
 ## 📌 Conclusion
 
 This notebook demonstrates a comprehensive application of survival models to estimate retention and lifetime value, supporting data-driven marketing strategies.
-"""
 
+---
+
+## ⚙️ Setup and Execution Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/NalchajyanHayk/DS223_HW3.git
+cd <your-repo-directory>
+```
+
+### 2. Create and Activate a Virtual Environment
+```bash
+python -m venv venv
+# On Windows
+venv\Scripts\activate
+# On macOS/Linux
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Jupyter Notebook
+```bash
+jupyter notebook DS223_Marketing_Analytics_HW3.ipynb
+```
